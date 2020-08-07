@@ -1,3 +1,22 @@
+@media (max-width: 767px) {
+	.desktop {
+		width: 90%;
+	}
+}
+@media (min-width: 768px) {
+	.tablet {
+		width: 40%;
+	}
+	div:nth-child(4) {
+		width: 85%;
+	}
+}
+@media (min-width: 992px) {
+	.phone {
+		width: 28%;
+	}
+}
+
 body {
 	font-family: arial
 	}
@@ -35,7 +54,6 @@ h1 {
 	margin: 20px;
 	text-align: justify; 
 	box-sizing: border-box; 
-	width: 28%;
 	border: 3px solid black; 
 }
 .Descripcion {
