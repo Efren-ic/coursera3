@@ -1,19 +1,22 @@
 @media (max-width: 767px) {
-	.desktop {
-		width: 90%;
+	.phone {
+		width: 96%;
+		margin: 0px 2% 20px 2%;
 	}
 }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.tablet {
-		width: 40%;
+		width: 46%;
+		margin: 0px 2% 20px 2%;
 	}
 	div:nth-child(4) {
-		width: 85%;
+		width: 96%;
 	}
 }
 @media (min-width: 992px) {
-	.phone {
-		width: 28%;
+	.desktop {
+		width: 29%;
+		margin: 0px 2% 20px 2%;
 	}
 }
 
@@ -23,15 +26,16 @@ body {
 h1 {
 	margin-top: 40px;
 	text-align: center;
+	font-size: 1.75em;
 }
 .Carne {
 	box-sizing: border-box; 
 	width: 50%;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1.25em;
 	font-weight: bold;
 	float: right;
-	right: 0px;
+	
 	border: 3px solid black;
 	border-top: 0px;
 	border-right: 0px;
@@ -51,7 +55,6 @@ h1 {
 	background-color: #989898;
 	color: black;
 	float: left;
-	margin: 20px;
 	text-align: justify; 
 	box-sizing: border-box; 
 	border: 3px solid black; 
@@ -59,4 +62,5 @@ h1 {
 .Descripcion {
 	clear: right;
 	margin: 10px;
+	font-size: 1.0em;
 }
